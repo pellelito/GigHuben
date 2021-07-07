@@ -22,3 +22,40 @@ select,
 textarea {
     max-width: 280px;
 }
+/*Override Bootstrap*/
+.navbar-inverse {
+    background-color: #FF4233;
+    border-color: #ff4234;
+}
+    .navbar-inverse .navbar-nav > li > a {
+        color: #ffffff;
+    }
+    .navbar-inverse .navbar-brand {
+        color: #ffffff;
+        font-weight:700 ;
+    }
+    .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+        background-color: #d83124 ;
+    }
+body {
+    font-family: Nunito, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+}
+.form-group{
+    margin-bottom: 20px;
+}
+.form-control {
+    font-size: 17px;
+    padding: 20px 15px;
+    border-radius: 9px;
+}
+.form-control:hover {
+    border-color: royalblue;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.btn {
+    padding: 7px 20px;
+    font-size: 17px;
+    border-radius: 9px;
+}
